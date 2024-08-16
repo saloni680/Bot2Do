@@ -1,35 +1,3 @@
-// const express = require('express');
-// const mongoose = require('mongoose');
-// const cors = require('cors');
-// const dotenv = require('dotenv');
-// const bcrypt = require('bcrypt');
-// const { OAuth2Client } = require('google-auth-library');
-// const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
-
-// dotenv.config();
-
-// const app = express();
-// app.use(express.json());
-// app.use(cors({  
-//   origin: 'http://localhost:5173',
-//   methods: 'GET, POST',
-//   credentials: true,
-// }));
-// app.use(express.urlencoded({extended:false}))
-
-// mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-
-// const authRoutes = require('./Routes/auth');
-// app.use('/api/auth', authRoutes);
-
-
-// const PORT = process.env.PORT || 5001;
-// app.listen(PORT, () => {
-//   console.log(`Server running on http://localhost:${PORT}`);
-// });
-
-
-// Import required modules
 const express = require('express'); // Express framework for building the server
 const mongoose = require('mongoose'); // Mongoose for MongoDB object modeling
 const cors = require('cors'); // CORS middleware for handling cross-origin requests
