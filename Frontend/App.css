@@ -1,0 +1,155 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 60rem;
+    background-color: #11141F;
+    margin: auto;
+}
+.left{
+    height: 40rem;
+    width: 30rem;
+    background-image: url("./Components/leftsideB2d.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 5rem; */
+}
+.rightside{
+    /* background: linear-gradient(272.56deg, #040205 22.52%, #06080E 35.03%, #0C1725 54.99%, #0D1B2A 58.78%, #002436 85.5%, #3B82F6 95.78%, #3B82F6 100%); */
+    height: auto;
+    width: 25rem;
+    background-color: #1E2230;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px; 
+    
+}
+
+
+.rightside img{
+    height: 7rem;
+    margin-left: 4rem;
+    
+}
+.inner{
+    margin-top: -25px;
+    text-align: left;
+}
+input[type="email"] {
+    width: 90%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    outline: none; 
+}
+
+input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+button[type="submit"]{
+    height: 40px;
+    width: 30%;
+    background-color: #9747FF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+a.resend-action {
+    color:#9747FF ;
+}
+button.validate{
+    height: 40px;
+    width: 35%;
+    background-color: #9747FF;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+input.otp-input {
+    width: 5%;
+}
+form.form {
+    text-align: left;
+    margin-left: 10%;
+}
+/* Container styling */
+.hrs {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px 0; /* Add vertical margin */
+  }
+  
+ 
+  .hr1 {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid white;
+    width: 280px;
+}
+  
+  /* Styling for the text */
+  .or {
+    margin: 0 10px; /* Add space around the text */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  /* Styling for the second hr */
+  .hr2 {
+    flex: 1; /* Grow the hr element to fill available space */
+    border: 0; /* Remove default border */
+    border-top: 1px solid white; /* Add a top border */
+  }
+  
+  .fa-arrow-left{
+    margin-left: 5px;
+  }
+  button {
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #8a898c;
+    color: white;
+    cursor: pointer;
+}
+.backarrow {
+    display: flex;
+    align-items: center;
+}
+
+.password-setup {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -30px;
+}
+input[type="password"] {
+    width: 80%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    outline: none; 
+    height: 10px;
+}
+input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
