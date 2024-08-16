@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 60rem;
+    background-color: #11141F;
+    margin: auto;
+}
+.left{
+    height: 40rem;
+    width: 30rem;
+    background-image: url("./Components/leftsideB2d.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 5rem; */
+}
+.rightside{
+    /* background: linear-gradient(272.56deg, #040205 22.52%, #06080E 35.03%, #0C1725 54.99%, #0D1B2A 58.78%, #002436 85.5%, #3B82F6 95.78%, #3B82F6 100%); */
+    height: auto;
+    width: 25rem;
+    background-color: #1E2230;
+    color: rgb(243, 24, 24);
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px; 
+    
+}
